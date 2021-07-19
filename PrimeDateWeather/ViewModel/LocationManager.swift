@@ -28,17 +28,21 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         //First need to check if the apple device has location services availabel. (i.e. Some iTouch's don't have this enabled)
         if CLLocationManager.locationServicesEnabled() {
             //Then check whether the user has granted you permission to get his location
-            switch manager.authorizationStatus {
-            case .notDetermined:
-                //Request permission
+            if #available(iOS 14.0, *) {
+                switch manager.authorizationStatus {
+                case .notDetermined:
+                    //Request permission
+                    manager.requestWhenInUseAuthorization()
+                case .restricted, .denied:
+                    print("Sorry for you. You can huff and puff but you are not getting any location")
+                case .authorizedWhenInUse:
+                    // This will trigger the locationManager:didUpdateLocation delegate method to get called when the next available location of the user is available
+                    manager.startUpdatingLocation()
+                default:
+                    manager.startUpdatingLocation()
+                }
+            } else {
                 manager.requestWhenInUseAuthorization()
-            case .restricted, .denied:
-                print("Sorry for you. You can huff and puff but you are not getting any location")
-            case .authorizedWhenInUse:
-                // This will trigger the locationManager:didUpdateLocation delegate method to get called when the next available location of the user is available
-                manager.startUpdatingLocation()
-            default:
-                manager.startUpdatingLocation()
             }
         }
         
