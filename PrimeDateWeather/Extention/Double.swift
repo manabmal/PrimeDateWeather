@@ -6,3 +6,14 @@
 //
 
 import Foundation
+extension Double {
+    var toCString: String {
+        let strData = String(format: "%.1fºC", self)
+        return strData
+    }
+    
+    var toFString: String {
+        let strData = String(format: "%.1fºF", self)
+        return strData
+    }
+}

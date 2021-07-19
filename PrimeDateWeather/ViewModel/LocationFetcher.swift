@@ -1,5 +1,5 @@
 //
-//  Location.swift
+//  LocationFetcher.swift
 //  PrimeDateWeather
 //
 //  Created by Manab Kumar Mal on 18/07/21.

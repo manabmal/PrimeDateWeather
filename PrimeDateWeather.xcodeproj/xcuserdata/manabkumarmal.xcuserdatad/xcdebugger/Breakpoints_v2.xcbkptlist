@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FDB39F24-8DDF-4232-B3E0-81AAE726FEDE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADE781DC-EB3B-4715-8F84-DF434E82D248"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PrimeDateWeather/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getCityCountryLatLon(date:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ADE781DC-EB3B-4715-8F84-DF434E82D248 - ad461487407e68df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.String, Swift.String) -&gt; () in PrimeDateWeather.ViewController.getCityCountryLatLon(date: Foundation.Date) -&gt; ()"
+                  moduleName = "PrimeDateWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manabkumarmal/Desktop/TempProjects/PrimeDateWeather/PrimeDateWeather/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "435">
+               </Location>
+               <Location
+                  uuid = "ADE781DC-EB3B-4715-8F84-DF434E82D248 - c12e13aadc5b8ebd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.String, Swift.String, Swift.String) -&gt; () in PrimeDateWeather.ViewController.getCityCountryLatLon(date: Foundation.Date) -&gt; ()"
+                  moduleName = "PrimeDateWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manabkumarmal/Desktop/TempProjects/PrimeDateWeather/PrimeDateWeather/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F3E0690-D2C6-4209-9628-11373E62544B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PrimeDateWeather/ViewModel/LocationFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchCity(locationCity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

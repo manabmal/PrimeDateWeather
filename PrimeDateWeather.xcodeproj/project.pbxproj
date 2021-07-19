@@ -15,6 +15,18 @@
 		FB8C368426A4963B00B6845A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8C368226A4963B00B6845A /* LaunchScreen.storyboard */; };
 		FB8C368F26A4963B00B6845A /* PrimeDateWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C368E26A4963B00B6845A /* PrimeDateWeatherTests.swift */; };
 		FB8C369A26A4963B00B6845A /* PrimeDateWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C369926A4963B00B6845A /* PrimeDateWeatherUITests.swift */; };
+		FB8C36B126A4984400B6845A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C36B026A4984400B6845A /* CardView.swift */; };
+		FB8C36B326A4995000B6845A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C36B226A4995000B6845A /* LocationManager.swift */; };
+		FB8C36B526A49E8200B6845A /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C36B426A49E8200B6845A /* CLLocation.swift */; };
+		FB8C36B726A4A2E600B6845A /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C36B626A4A2E600B6845A /* LocationFetcher.swift */; };
+		FB8C36BC26A4BF4A00B6845A /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C36BA26A4BF4A00B6845A /* DatePickerViewController.swift */; };
+		FB8C36BF26A4C70800B6845A /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C36BE26A4C70800B6845A /* Int.swift */; };
+		FB8C36C126A4C84C00B6845A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C36C026A4C84C00B6845A /* UIViewController.swift */; };
+		FBDFA50B26A57FB400B6C0D1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFA50A26A57FB400B6C0D1 /* Date.swift */; };
+		FBDFA50D26A5848700B6C0D1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFA50C26A5848700B6C0D1 /* Weather.swift */; };
+		FBDFA51526A588EC00B6C0D1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFA51426A588EC00B6C0D1 /* Constant.swift */; };
+		FBDFA51726A598D400B6C0D1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFA51626A598D400B6C0D1 /* Double.swift */; };
+		FBDFA53126A5F59300B6C0D1 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFA53026A5F59300B6C0D1 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		FB8C369526A4963B00B6845A /* PrimeDateWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeDateWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8C369926A4963B00B6845A /* PrimeDateWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeDateWeatherUITests.swift; sourceTree = "<group>"; };
 		FB8C369B26A4963B00B6845A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8C36B026A4984400B6845A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FB8C36B226A4995000B6845A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FB8C36B426A49E8200B6845A /* CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		FB8C36B626A4A2E600B6845A /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		FB8C36BA26A4BF4A00B6845A /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		FB8C36BE26A4C70800B6845A /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		FB8C36C026A4C84C00B6845A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FBDFA50A26A57FB400B6C0D1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FBDFA50C26A5848700B6C0D1 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		FBDFA51426A588EC00B6C0D1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FBDFA51626A598D400B6C0D1 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		FBDFA53026A5F59300B6C0D1 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +123,15 @@
 		FB8C367626A4963500B6845A /* PrimeDateWeather */ = {
 			isa = PBXGroup;
 			children = (
-				FB8C367726A4963500B6845A /* AppDelegate.swift */,
-				FB8C367926A4963500B6845A /* SceneDelegate.swift */,
-				FB8C367B26A4963500B6845A /* ViewController.swift */,
-				FB8C367D26A4963500B6845A /* Main.storyboard */,
-				FB8C368026A4963B00B6845A /* Assets.xcassets */,
-				FB8C368226A4963B00B6845A /* LaunchScreen.storyboard */,
+				FB8C36AF26A4980A00B6845A /* Constant */,
+				FB8C36AE26A497FC00B6845A /* Extention */,
+				FB8C36AD26A497DF00B6845A /* Model */,
+				FB8C36AC26A497C500B6845A /* ViewModel */,
+				FB8C36AB26A497BB00B6845A /* View */,
+				FB8C36A826A4973300B6845A /* Controller */,
+				FB8C36A726A4971A00B6845A /* Delegate */,
+				FB8C36A926A4975300B6845A /* Storyboards */,
+				FB8C36AA26A4977700B6845A /* Assets */,
 				FB8C368526A4963B00B6845A /* Info.plist */,
 			);
 			path = PrimeDateWeather;
@@ -126,6 +153,87 @@
 				FB8C369B26A4963B00B6845A /* Info.plist */,
 			);
 			path = PrimeDateWeatherUITests;
+			sourceTree = "<group>";
+		};
+		FB8C36A726A4971A00B6845A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C367726A4963500B6845A /* AppDelegate.swift */,
+				FB8C367926A4963500B6845A /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FB8C36A826A4973300B6845A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C367B26A4963500B6845A /* ViewController.swift */,
+				FB8C36BA26A4BF4A00B6845A /* DatePickerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB8C36A926A4975300B6845A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C367D26A4963500B6845A /* Main.storyboard */,
+				FB8C368226A4963B00B6845A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FB8C36AA26A4977700B6845A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C368026A4963B00B6845A /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FB8C36AB26A497BB00B6845A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C36B026A4984400B6845A /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB8C36AC26A497C500B6845A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C36B226A4995000B6845A /* LocationManager.swift */,
+				FB8C36B626A4A2E600B6845A /* LocationFetcher.swift */,
+				FBDFA50C26A5848700B6C0D1 /* Weather.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB8C36AD26A497DF00B6845A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFA53026A5F59300B6C0D1 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8C36AE26A497FC00B6845A /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C36B426A49E8200B6845A /* CLLocation.swift */,
+				FB8C36BE26A4C70800B6845A /* Int.swift */,
+				FB8C36C026A4C84C00B6845A /* UIViewController.swift */,
+				FBDFA50A26A57FB400B6C0D1 /* Date.swift */,
+				FBDFA51626A598D400B6C0D1 /* Double.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		FB8C36AF26A4980A00B6845A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFA51426A588EC00B6C0D1 /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +368,19 @@
 			files = (
 				FB8C367C26A4963500B6845A /* ViewController.swift in Sources */,
 				FB8C367826A4963500B6845A /* AppDelegate.swift in Sources */,
+				FB8C36BC26A4BF4A00B6845A /* DatePickerViewController.swift in Sources */,
+				FB8C36C126A4C84C00B6845A /* UIViewController.swift in Sources */,
+				FBDFA53126A5F59300B6C0D1 /* WeatherModel.swift in Sources */,
+				FBDFA50D26A5848700B6C0D1 /* Weather.swift in Sources */,
+				FB8C36B326A4995000B6845A /* LocationManager.swift in Sources */,
+				FB8C36B526A49E8200B6845A /* CLLocation.swift in Sources */,
+				FBDFA51526A588EC00B6C0D1 /* Constant.swift in Sources */,
+				FB8C36B126A4984400B6845A /* CardView.swift in Sources */,
 				FB8C367A26A4963500B6845A /* SceneDelegate.swift in Sources */,
+				FBDFA50B26A57FB400B6C0D1 /* Date.swift in Sources */,
+				FB8C36BF26A4C70800B6845A /* Int.swift in Sources */,
+				FBDFA51726A598D400B6C0D1 /* Double.swift in Sources */,
+				FB8C36B726A4A2E600B6845A /* LocationFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
