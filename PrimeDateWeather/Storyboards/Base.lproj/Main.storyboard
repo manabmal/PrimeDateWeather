@@ -118,7 +118,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.82022090645401313" green="0.90229348373273399" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="dgQ-D8-cNY" firstAttribute="leading" secondItem="T2u-yL-ydA" secondAttribute="leading" constant="16" id="Bn3-LW-5t6"/>
                                     <constraint firstItem="dgQ-D8-cNY" firstAttribute="centerY" secondItem="T2u-yL-ydA" secondAttribute="centerY" id="XVh-X3-aZh"/>
@@ -158,14 +158,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1RH-Yv-yY0">
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1RH-Yv-yY0">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.82022090650000001" green="0.90229348369999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="7ub-8D-RiB">
-                                <rect key="frame" x="0.0" y="178.5" width="414" height="539"/>
+                                <rect key="frame" x="0.0" y="273" width="414" height="350"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="539" id="lLR-bJ-tRK"/>
+                                    <constraint firstAttribute="height" constant="350" id="lLR-bJ-tRK"/>
                                 </constraints>
                             </datePicker>
                         </subviews>
